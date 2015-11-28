@@ -12206,6 +12206,9 @@ let
     inherit (gnome) libglade;
   };
 
+  ### APPLICATIONS / LEECHCRAFT  
+  leechcraft-core = callPackage ../applications/networking/leechcraft/leechcraft-core { };
+
   leo-editor = callPackage ../applications/editors/leo-editor { };
 
   libowfat = callPackage ../development/libraries/libowfat { };
