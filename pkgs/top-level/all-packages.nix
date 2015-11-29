@@ -12208,6 +12208,7 @@ let
 
   ### APPLICATIONS / LEECHCRAFT  
   leechcraft-core = callPackage ../applications/networking/leechcraft/leechcraft-core { };
+  leechcraft-advancednotifications = callPackage ../applications/networking/leechcraft/leechcraft-advancednotifications { };
 
   leo-editor = callPackage ../applications/editors/leo-editor { };
 
